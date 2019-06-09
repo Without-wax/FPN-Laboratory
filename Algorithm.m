@@ -1,4 +1,4 @@
-function [A_Power,R_Power,Frequency,Voltage] = retrial(val)
+function [A_Power,R_Power,Frequency,Voltage] = GS_algorithm(val)
 
 %% Algorithm 
 %Define Base parameters
