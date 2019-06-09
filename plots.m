@@ -1,5 +1,5 @@
 for i=1:3
-    [p(i,:),r(i,:),f(i,:),v(i,:)] = retrial(i);
+    [p(i,:),r(i,:),f(i,:),v(i,:)] = GS_algorithm(i);
 end
 i=[0.9996 1 1.0008];
 %Plot frequency
